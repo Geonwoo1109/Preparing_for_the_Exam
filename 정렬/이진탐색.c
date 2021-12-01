@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void seq_search(int a[], int n, int key) {
+void search(int a[], int n, int key) {
    int l=1, r=n, m, i;
    m = (l+r) / 2;
    
@@ -21,8 +21,8 @@ main()
    int a[]={1, 3, 5, 7, 9, 11, 13};
    int n=7;
    
-   seq_search(a,n,3);
-   seq_search(a,n,11);
+   search(a,n,3);
+   search(a,n,11);
    
    //getchar();
 }
